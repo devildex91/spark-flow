@@ -1,4 +1,4 @@
-# React + Vite
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -7,11 +7,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# spark-flow
+# SPARKFLOW
+## Amplify your creative sound
+Here at sparkflow we aim to Spark your listening to life.We will do this by providing ypu with the soundtrack to success. We have created an inclusive app aimed at taking your current listening and amplifying it to new volumes,How? you may ask. Well the only thing we ask to do this is a little inspiration from you. All we need is either your current mood,a genre of music or even an artist you love.You tell us this and in return we promise to give you LOADS of new artists and songs as well a little taster of this music for you to wrap your ears around enjoy.If you enjoy music but are looking for something new then you are our audience. Take a journey with us and lets see what we can do together.
+        
