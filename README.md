@@ -86,7 +86,7 @@ Here at sparkflow we aim to Spark your listening to life. We will do this by pro
 ---
 
 - I have chosen to use bootstrap grid for my responsive design and where possible use bootstrap components for the bare bones.
-- Within my responsive layout I intend to keep everything centred as well as possible so it all follows the same flow.
+- Within my responsive layout I intend to keep everything centred as w ll as possible so it all follows the same flow.
 - My reasoning for centring most components is to keep things simple for the user, so they know where everything is going to be and like a workout you dont need to do anything flashy, just keep it simple yet effective and you will see the results you want.
 - A responsive navbar that uses the avaliable space whilst keeping things minimalist for the best user experience.
 - Footers will be kept consistent throughout so that it is intuitive for the user and key information is allways in the same place regardless of what device is used.
@@ -118,13 +118,7 @@ Here at sparkflow we aim to Spark your listening to life. We will do this by pro
 - #121211
 - #F24901
 - #FBF9F9
-<details>
 
-<summary>palete of colour choices</summary>
-
-![palete of colors fron top to bottom black,Mint,light-cyan and grey](./assets/images/readme-images/color-choices.webp)
-
-</details>
 
 
 [back to top](#SPARKFLOW)

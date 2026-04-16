@@ -1,13 +1,14 @@
-import { useState } from 'react'
+
 import './App.css'
-
-
+import Header from "./components/Header.jsx"
+import Mainsection from "./components/Mainsection.jsx"
 function App() {
   
   return (
     <>
+    <Header />
     
-     <h1>Ready for action let get this working</h1>
+     
     </>
   )
 }

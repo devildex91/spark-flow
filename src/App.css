@@ -1,3 +1,26 @@
-h1 {
-  color:blueviolet;
+
+body{
+  background-image:url("./assets/images/background-image.png");
+  background-size: cover;
+  background-color: black;
+  
 }
+
+
+
+
+ @media (min-width:481px) {
+       body{
+  
+  background-size: 100% 50vh;
+  background-repeat: no-repeat;
+  } }
+
+
+   @media (min-width:961px) {
+    body{
+      background-image:none;
+    }
+     
+
+   }
