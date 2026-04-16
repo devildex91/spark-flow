@@ -1,13 +1,11 @@
+import "./Header.css"
 import React from "react"
-import mainLogo from "../assets/images/Sparkflow-favicon-dark.png";
-import "./Header.css";
+import headerImage from "../assets//images/background-image.png"
 
-export default function header(){
-    return (
-        <> 
-        <header>
-             <img src= {mainLogo} alt="main logo"/>
-        </header>
-        </>
-    )
-}
+export default function Mainsection() {
+    return(
+        <>
+    <img src = {headerImage} className = "desktop-only"/>
+    
+    </>
+)}

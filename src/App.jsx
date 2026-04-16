@@ -1,13 +1,13 @@
 
 import './App.css'
+import Navbar from "./components/Navbar.jsx"
 import Header from "./components/Header.jsx"
-import Mainsection from "./components/Mainsection.jsx"
 function App() {
   
   return (
     <>
+    <Navbar />
     <Header />
-    
      
     </>
   )
