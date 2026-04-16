@@ -1,16 +1,16 @@
 
 import './App.css'
 import Navbar from "./components/Navbar.jsx"
-import Header from "./components/Header.jsx"
-function App() {
+import Landingpage from "./components/Landingpage/Landingpage.jsx"
+export default function App() {
   
   return (
     <>
     <Navbar />
-    <Header />
+    <Landingpage />
      
     </>
   )
 }
 
-export default App
+
