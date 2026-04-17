@@ -1,0 +1,31 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.reviewCard {
+  background-color: #121211;
+  opacity: 80%;
+  border: solid 3px #f24901;
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 12.5%;
+  text-align: center;
+  min-height: 200px; /* Prevents layout shift */
+  flex: 1;
+}
+
+.nav-btn {
+  cursor: pointer;
+}
+
+.counter {
+  display: block;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: #666;
+}

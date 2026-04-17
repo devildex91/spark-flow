@@ -1,6 +1,19 @@
+body{
+  margin:0;
+  padding:0;
+  background-image:url("./assets/images/background-image2.jpg");
+  background-size:cover;
+  min-height:100vh;
+  background-position: center, center;
+ display: flex;
+ flex-direction:column;
+  background-color: black;
+}
+
+
 button {
     background-color:#F24901;
-    
+    color:black;
     border-radius:12.5px ;
     margin: 5px;
 }

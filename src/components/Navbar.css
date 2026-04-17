@@ -1,18 +1,16 @@
 nav {
-    background-color:#121211;
-    opacity: 70%;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 3px solid #F24901;
-    
+  background-color: #121211;
+  opacity: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 3px solid #f24901;
 }
-    
+
 img {
-    padding:5px;
+  padding: 5px;
 }
- .navButtons {
-    display: flex;
-    align-items: center;
- 
- }
+.navButtons {
+  display: flex;
+  align-items: center;
+}

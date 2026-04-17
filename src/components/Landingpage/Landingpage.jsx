@@ -1,13 +1,14 @@
-import "./Landingpage.css"
+import "./Landingpage.css";
 import titleImage from "../../assets/images/Sparkflow-logo-dark.png";
 import { Link } from "react-router-dom";
-import Formpage from "../../components/Formpage/Formpage.jsx";
+import Reviews from "./Reviews";
 export default function Landingpage() {
-    const linkStyle = {
-        textDecoration: "none",
-        color: " #121211",
-        fontWeight: "bold"
-    }
+  const linkStyle = {
+    textDecoration: "none",
+    color: " #121211",
+    fontWeight: "bold",
+  };
+
   return (
     <section id="landingPage">
       <header>
@@ -24,15 +25,12 @@ export default function Landingpage() {
         <div className="buttonHolder">
           <button>
             <Link to="/getstarted" style={linkStyle}>
-              {" "}
               Amplify your playlist
             </Link>
           </button>
         </div>
       </section>
-      <section id = "userReview">
-         
-      </section>
+      <Reviews />
     </section>
   );
 }
