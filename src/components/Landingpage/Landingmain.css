@@ -1,0 +1,14 @@
+.buttonHolder {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.landingMain {
+    background-color:antiquewhite;
+    opacity: 50%;
+    margin:20px;
+    border: 3px solid orangered;
+}
+.landingMain p {
+    margin:20px;
+}
