@@ -1,6 +1,6 @@
 import "./Header.css";
 import React from "react";
-import titleImage from ".../assets/images/SparkFlow-logo-dark.png"
+import titleImage from "../../assets/images/Sparkflow-logo-dark.png"
 
 export default function Header() {
     return(
