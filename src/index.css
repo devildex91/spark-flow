@@ -1,8 +1,6 @@
 button {
-    background-color:black;
+    background-color:#F24901;
+    
     border-radius:12.5px ;
     margin: 5px;
 }
- link {
-    color:orangered;
- }

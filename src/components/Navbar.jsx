@@ -9,7 +9,7 @@ export default function Navbar(props){
    
     const linkStyle = {
         textDecoration: "none",
-        color: "orangered",
+        color: " #121211",
         fontWeight: "bold"
     }
      

@@ -1,9 +1,10 @@
 nav {
-    background-color:#FBF9F9;
-    opacity: 50%;
+    background-color:#121211;
+    opacity: 70%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 3px solid #F24901;
     
 }
     
