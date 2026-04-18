@@ -12,7 +12,7 @@ export default function App() {
     <section id="main">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Landingpage />} />
+        <Route path="/*" element={<Landingpage />} />
         <Route path="/getstarted" element={<Formpage />} />
         <Route path="/Results" element={<Resultspage />} />
         <Route path="/Closerlook" element={<Closerlook />} />

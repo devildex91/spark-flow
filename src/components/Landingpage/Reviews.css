@@ -1,5 +1,6 @@
 .carousel {
   display: flex;
+ 
   align-items: center;
   justify-content: center;
 
@@ -8,15 +9,23 @@
 }
 
 .reviewCard {
+  display: flex;
+  
   background-color: #121211;
   opacity: 80%;
+  flex-direction: column;
   border: solid 3px #f24901;
-  padding: 5px;
+  padding: 15px;
   margin-bottom: 15px;
   border-radius: 12.5%;
   text-align: center;
-  min-height: 200px; /* Prevents layout shift */
+  min-height: 200px; 
+  margin: 20px;
   flex: 1;
+}
+.reviewCard form {
+  display: flex;
+  flex-direction:column;
 }
 
 .nav-btn {
@@ -28,4 +37,8 @@
   margin-top: 15px;
   font-size: 0.8rem;
   color: #666;
+}
+#buttonRow{
+  display:flex;
+  flex-direction:row;
 }

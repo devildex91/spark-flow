@@ -12,7 +12,9 @@ export default function Landingpage() {
   return (
     <section id="landingPage">
       <header>
+        <h1>
         <img src={titleImage} className="titleImg" />
+        </h1>
       </header>
       <section className="landingMain">
         <p>

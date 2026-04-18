@@ -4,7 +4,8 @@ import {Link, useLocation} from "react-router-dom";
 import mainLogo from "../assets/images/Sparkflow-favicon-dark.png";
 
 
-export default function Navbar(props){
+export default function Navbar(){
+    //uselocation variable for ease of use
     const location = useLocation();
    
     const linkStyle = {
@@ -12,14 +13,15 @@ export default function Navbar(props){
         color: " #121211",
         fontWeight: "bold"
     }
-     
+    //condition for ternary operator for buttons
+       const hideNavButtons =
+  location.pathname === "/" || location.pathname === "/Addreview";
    
-
     return (
         <> 
         <nav>
              <img src= {mainLogo} alt="main logo"/>
-             {location.pathname !=="/" && 
+             {!hideNavButtons && 
              <div className ="navButtons">
                <button>
                  <Link to="/" style = {linkStyle}> Home </Link>
