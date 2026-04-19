@@ -320,10 +320,9 @@ On a phone screen the background will be an image taking up full viewport height
 
 - fonts imported from [google fonts.](https://fonts.google.com/selection/embed)
 
-- colourscheme from [color palete.](https://colorhunt.co/palette/000000cfffe2a2d5c6f6f6f6)
-- basic layouts for cards,carousel and tables from [bootstrap](https://getbootstrap.com/)
-- basic form layout and buttons from [bootstrap](https://getbootstrap.com/)
-- All basic bootstrap elements have custom layouts and classes on top of to polish off layout to suit the page.
+- 
+- 
+- 
 
 [back to top](#SPARKFLOW)
 

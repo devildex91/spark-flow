@@ -8,12 +8,9 @@ body{
  display: flex;
  flex-direction:column;
   background-color: black;
+  color:#f24901;
+  
 }
 
 
-button {
-    background-color:#F24901;
-    color:black;
-    border-radius:12.5px ;
-    margin: 5px;
-}
+

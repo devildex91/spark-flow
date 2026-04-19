@@ -1,0 +1,88 @@
+#landingPage {
+  color: #f24901;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  min-height: 100vh;
+  flex-grow: 1;
+}
+
+.buttonHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.titleImg {
+  width: 200px;
+  margin-top: 10px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+p {
+  color: #f24901;
+}
+.outerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.reviewCard {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  background-color: #121211;
+  opacity: 80%;
+  flex-direction: column;
+  border: solid 3px #f24901;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12.5%;
+  text-align: center;
+  min-height: 200px; 
+  margin: 20px;
+  flex: 1;
+}
+.reviewCard p {
+  max-width:400px;
+}
+.reviewCard form {
+  display: flex;
+  flex-direction:column;
+}
+
+
+
+.counter {
+  display: block;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: #666;
+}
+#buttonRow{
+  display:flex;
+  flex-direction:row;
+}
+
+.reviewCard button {
+  height:25px;
+}
+.hidden{
+  display:none;
+}
+
+
+@media screen and (min-width: 762px){
+.hidden{
+  display:inline-flex;
+  max-width:450px;
+
+}
+
+
+}
