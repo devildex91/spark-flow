@@ -18,12 +18,16 @@ export default function Landingpage() {
         <img src={titleImage} className="titleImg" />
         </h1>
       </header>
-      <section className="landingMain">
+      <section className="landingMain"> 
+        <div className="outerContainer">
+           <div className="landingCard hidden">
         <img src={compPic} className="hidden" />
+        </div>
+        </div>
         <div className="outerContainer">
          
 
-        <div className="reviewCard topCard">
+        <div className="landingCard topCard">
           
         <p>
           Welcome to Sparkflow where our aim is to spark your creative juices

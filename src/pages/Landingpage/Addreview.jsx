@@ -6,7 +6,13 @@ export default function Addreview() {
 const [reviews, setReviews] = useState(userReviews);
 const navigate = useNavigate();
    
-  
+  const buttonStyle ={
+    color: "#121211",
+    backgroundColor: "#f24901",
+    borderRadius: "12.5px",
+    margin: "5px",
+    width: "fit-content"
+} 
  const handleSubmit = (event) => {
     event.preventDefault();
     
@@ -33,7 +39,7 @@ const navigate = useNavigate();
   
   return (
     <div className="outerContainer">
-      <div className="reviewCard active">
+      <div className="landingCard">
         <h2>What you thinking?</h2>
         <form  onSubmit={handleSubmit} >
         <label htmlFor="name">Name:</label>
@@ -52,7 +58,8 @@ const navigate = useNavigate();
           name="review"
       
         ></textarea>
-        <button type="submit">Submit</button>
+         { /*Button component left off so form submit works as intended*/}
+        <button type="submit" style = {buttonStyle}>Submit</button>
         </form>
       </div>
     </div>

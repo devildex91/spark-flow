@@ -14,7 +14,7 @@
 }
 .titleImg {
   width: 200px;
-  margin-top: 10px;
+  margin: 10px;
 }
 header {
   display: flex;
@@ -26,19 +26,19 @@ p {
 }
 .outerContainer {
   display: flex;
-  align-items: center;
+  
   justify-content: center;
   max-width: 600px;
   margin: 0 auto;
 }
 
-.reviewCard {
+.landingCard {
   display: flex;
   flex-direction:column;
   align-items:center;
+  justify-content:center;
   background-color: #121211;
   opacity: 80%;
-  flex-direction: column;
   border: solid 3px #f24901;
   padding: 15px;
   margin-bottom: 15px;
@@ -47,29 +47,34 @@ p {
   min-height: 200px; 
   margin: 20px;
   flex: 1;
+  
 }
-.reviewCard p {
+.landingCard p {
   max-width:400px;
 }
-.reviewCard form {
-  display: flex;
+// review form styles 
+ form{
+  display:flex;
   flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
-
-
-
-.counter {
-  display: block;
-  margin-top: 15px;
-  font-size: 0.8rem;
-  color: #666;
+form button{
+  align-self:center;
 }
+/*form input, form textarea{
+  background-color:#121211;
+  border: solid 3px #f24901;
+}*/
+
+
+
 #buttonRow{
   display:flex;
   flex-direction:row;
 }
 
-.reviewCard button {
+.landingCard button {
   height:25px;
 }
 .hidden{
@@ -78,11 +83,34 @@ p {
 
 
 @media screen and (min-width: 762px){
-.hidden{
-  display:inline-flex;
-  max-width:450px;
+.titleImg {
+  width: 180px;
+  margin: 10px;
+}
+  .hidden{
+  display:flex;
+ 
 
 }
+.landingMain{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.landingCard{
+  width:50%;
+  flex:1 1 50%;
+  min-width:40vw;
+}
+.landingCard img{
+  
+   width:100%;
+  border-radius: 12.5%;
+    object-fit:fill;
+    flex:1 1 50%;
+
+}
+
 
 
 }

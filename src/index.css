@@ -4,6 +4,7 @@ body{
   background-image:url("./assets/images/background-image2.jpg");
   background-size:cover;
   min-height:100vh;
+  min-width:100vw;
   background-position: center, center;
  display: flex;
  flex-direction:column;

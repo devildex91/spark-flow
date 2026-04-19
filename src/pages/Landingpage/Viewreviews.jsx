@@ -26,7 +26,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
         <div className="outerContainer">
        
 
-        <div className="reviewCard">
+        <div className="landingCard">
           <h2>Don't believe us?</h2>
           <h3>{name}</h3>
           <div id = "buttonRow">
@@ -38,7 +38,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
            content="❯" />
            </div>
           <Button 
-          Link="/Addreview" 
+          link="/Addreview" 
           content= "Add your own"  />
              
         </div>

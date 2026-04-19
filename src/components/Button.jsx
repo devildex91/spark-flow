@@ -18,7 +18,7 @@ const linkStyle = {
     }
 
 return (
-    <button style = {buttonStyle} onClick = {props.onClick}>
+    <button style = {buttonStyle} onClick = {props.onClick} type={props.type}>
         <Link to={props.link} style = {linkStyle}>{props.content} </Link>
 </button>
 )
