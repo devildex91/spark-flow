@@ -52,7 +52,7 @@ p {
 .landingCard p {
   max-width:400px;
 }
-// review form styles 
+/* review form styles*/ 
  form{
   display:flex;
   flex-direction:column;
@@ -62,11 +62,14 @@ p {
 form button{
   align-self:center;
 }
-/*form input, form textarea{
+form input, form textarea{
   background-color:#121211;
   border: solid 3px #f24901;
-}*/
+}
+form input:hover,form textarea:focus {
+ background-color:white ;
 
+}
 
 
 #buttonRow{
